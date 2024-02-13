@@ -24,3 +24,12 @@ D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTracking
 D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.dll
 D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\refint\LogisticsTrackingApp.Data.dll
 D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.pdb
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\bin\Debug\net8.0\LogisticsTrackingApp.Data.deps.json
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\bin\Debug\net8.0\LogisticsTrackingApp.Data.runtimeconfig.json
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\bin\Debug\net8.0\LogisticsTrackingApp.Data.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\bin\Debug\net8.0\LogisticsTrackingApp.Data.pdb
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\bin\Debug\net8.0\LogisticsTrackingApp.Core.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\bin\Debug\net8.0\LogisticsTrackingApp.Core.pdb
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.csproj.CopyComplete
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.genruntimeconfig.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\ref\LogisticsTrackingApp.Data.dll

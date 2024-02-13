@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Data.Repositories.Concrete
 {
-	public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
+	public class ContactRepository : GenericRepository<Contact>, IContactRepository
 	{
-		public CustomerRepository(LogisticsDbContext dbContext, DbSet<Customer> dbSet) : base(dbContext, dbSet)
+		public ContactRepository(LogisticsDbContext dbContext, DbSet<Contact> dbSet) : base(dbContext, dbSet)
 		{
 		}
 	}

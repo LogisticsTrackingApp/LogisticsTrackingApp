@@ -26,7 +26,7 @@ namespace LogisticsTrackingApp.Data.Repositories
 		 await	_dbSet.AddAsync(entity);
 		}
 
-		public void DeleteAsync(T entity)
+		public void Delete(T entity)
 		{
 			_dbSet.Remove(entity);
 		}
@@ -41,7 +41,7 @@ namespace LogisticsTrackingApp.Data.Repositories
 			return await _dbSet.FindAsync(id);
 		}
 
-		public void UpdateAsync(T entity)
+		public void Update(T entity)
 		{
 			_dbSet.Update(entity);
 		}

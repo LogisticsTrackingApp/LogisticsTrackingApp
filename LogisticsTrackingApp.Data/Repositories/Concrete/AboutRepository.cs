@@ -1,6 +1,7 @@
 ﻿using LogisticsTrackingApp.Core.Models;
 using LogisticsTrackingApp.Data.Context;
 using LogisticsTrackingApp.Data.Repositories.Abstract;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace LogisticsTrackingApp.Data.Repositories.Concrete
 {
 	public class AboutRepository : GenericRepository<About>, IAboutRepository
 	{
-		public AboutRepository(LogisticsDbContext dbContext) : base(dbContext)
+		public AboutRepository(LogisticsDbContext dbContext, DbSet<About> dbSet) : base(dbContext, dbSet)
 		{
 		}
 	}
