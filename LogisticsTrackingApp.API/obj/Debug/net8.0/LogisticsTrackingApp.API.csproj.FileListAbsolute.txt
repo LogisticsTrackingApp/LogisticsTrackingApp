@@ -107,3 +107,14 @@ D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.API\obj\Debug\net8.0\refint
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.pdb
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.genruntimeconfig.cache
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.API\obj\Debug\net8.0\ref\LogisticsTrackingApp.API.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.csproj.AssemblyReference.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.AssemblyInfoInputs.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.AssemblyInfo.cs
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.csproj.CoreCompileInputs.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.MvcApplicationPartsAssemblyInfo.cs
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.MvcApplicationPartsAssemblyInfo.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.sourcelink.json
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\refint\LogisticsTrackingApp.API.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.pdb

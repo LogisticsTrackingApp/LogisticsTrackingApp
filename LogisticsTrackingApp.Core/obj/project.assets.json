@@ -2301,11 +2301,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj",
+      "projectUniqueName": "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj",
       "projectName": "LogisticsTrackingApp.Core",
-      "projectPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj",
+      "projectPath": "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj",
       "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
-      "outputPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Core\\obj\\",
+      "outputPath": "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",

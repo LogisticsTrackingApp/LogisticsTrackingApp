@@ -12,3 +12,18 @@ D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Core\obj\Debug\net8.0\refin
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.pdb
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.genruntimeconfig.cache
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Core\obj\Debug\net8.0\ref\LogisticsTrackingApp.Core.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\bin\Debug\net8.0\LogisticsTrackingApp.Core.deps.json
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\bin\Debug\net8.0\LogisticsTrackingApp.Core.runtimeconfig.json
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\bin\Debug\net8.0\LogisticsTrackingApp.Core.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\bin\Debug\net8.0\LogisticsTrackingApp.Core.pdb
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.csproj.AssemblyReference.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.AssemblyInfoInputs.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.AssemblyInfo.cs
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.csproj.CoreCompileInputs.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.sourcelink.json
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\refint\LogisticsTrackingApp.Core.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.pdb
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\LogisticsTrackingApp.Core.genruntimeconfig.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Core\obj\Debug\net8.0\ref\LogisticsTrackingApp.Core.dll

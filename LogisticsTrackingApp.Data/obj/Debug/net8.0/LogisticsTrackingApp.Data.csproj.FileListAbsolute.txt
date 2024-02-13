@@ -15,3 +15,12 @@ D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Data\obj\Debug\net8.0\refin
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.pdb
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.genruntimeconfig.cache
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Data\obj\Debug\net8.0\ref\LogisticsTrackingApp.Data.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.csproj.AssemblyReference.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.AssemblyInfoInputs.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.AssemblyInfo.cs
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.csproj.CoreCompileInputs.cache
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.sourcelink.json
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\refint\LogisticsTrackingApp.Data.dll
+D:\BackEnd Developer\LogisticsTrackingApp\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.pdb
