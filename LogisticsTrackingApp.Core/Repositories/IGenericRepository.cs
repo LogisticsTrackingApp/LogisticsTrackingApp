@@ -1,5 +1,4 @@
-﻿using LogisticsTrackingApp.Core.Models.BaseEntities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -8,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Core.Repositories
 {
-	public interface IGenericRepository<T> where T : BaseEntity
+	public interface IGenericRepository<T> where T : class
 	{
 
 		Task<IEnumerable<T>> GetAllAsync();
 
 		Task<T> GetIdAsync(int id);
 
-		Task AddAsync(T entity);
+		Task<T> InsertAsync(T entity);
 
-		void Update(T entity);
+		Task<T> UpdateAsync(T entity);
 
-		void Delete(T entity);
+		Task<T> DeleteAsync(int id);
 
 	}
 }

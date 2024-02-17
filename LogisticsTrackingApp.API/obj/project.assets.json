@@ -2778,11 +2778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
+      "projectUniqueName": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
       "projectName": "LogisticsTrackingApp.API",
-      "projectPath": "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
+      "projectPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
       "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
-      "outputPath": "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.API\\obj\\",
+      "outputPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2799,8 +2799,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.Service\\LogisticsTrackingApp.Service.csproj": {
-              "projectPath": "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.Service\\LogisticsTrackingApp.Service.csproj"
+            "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Service\\LogisticsTrackingApp.Service.csproj": {
+              "projectPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Service\\LogisticsTrackingApp.Service.csproj"
             }
           }
         }

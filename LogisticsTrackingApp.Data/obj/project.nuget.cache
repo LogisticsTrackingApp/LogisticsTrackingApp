@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y/qoG49fNxfCoExvQ+kTcdSiT6VzMpjtX1S2cvn5uQZh8h0Cee6th39YrYztLHb6HhwUl8SYwx4BovYwweYoTQ==",
+  "dgSpecHash": "3B/dGddLntjjJsFig6X6e5W3O+jA3XYwQSYdGgqCrFTlEtETTBzMYxJH08MY5PQzDJgxrjakFq+p1yNfkipwvw==",
   "success": true,
-  "projectFilePath": "D:\\BackEnd Developer\\LogisticsTrackingApp\\LogisticsTrackingApp\\LogisticsTrackingApp.Data\\LogisticsTrackingApp.Data.csproj",
+  "projectFilePath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Data\\LogisticsTrackingApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\omer\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\omer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

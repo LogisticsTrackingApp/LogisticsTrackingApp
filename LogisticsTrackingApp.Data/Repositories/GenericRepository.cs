@@ -1,7 +1,4 @@
-﻿using LogisticsTrackingApp.Core.Models.BaseEntities;
-using LogisticsTrackingApp.Core.Repositories;
-using LogisticsTrackingApp.Data.Context;
-using Microsoft.EntityFrameworkCore;
+﻿using LogisticsTrackingApp.Core.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,40 +7,32 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Data.Repositories
 {
-	public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
+	public class GenericRepository<T> : IGenericRepository<T> where T : class
 	{
-		protected readonly LogisticsDbContext _dbContext;
-		private readonly DbSet<T> _dbSet;
 
-		public GenericRepository(LogisticsDbContext dbContext, DbSet<T> dbSet)
+		public Task<T> DeleteAsync(int id)
 		{
-			_dbContext = dbContext;
-			_dbSet = _dbContext.Set<T>();
+			throw new NotImplementedException();
 		}
 
-		public async Task AddAsync(T entity)
+		public Task<IEnumerable<T>> GetAllAsync()
 		{
-		 await	_dbSet.AddAsync(entity);
+			throw new NotImplementedException();
 		}
 
-		public void Delete(T entity)
+		public Task<T> GetIdAsync(int id)
 		{
-			_dbSet.Remove(entity);
+			throw new NotImplementedException();
 		}
 
-		public async Task<IEnumerable<T>> GetAllAsync()
+		public Task<T> InsertAsync(T entity)
 		{
-			return await _dbSet.ToListAsync();
+			throw new NotImplementedException();
 		}
 
-		public async Task<T> GetIdAsync(int id)
+		public Task<T> UpdateAsync(T entity)
 		{
-			return await _dbSet.FindAsync(id);
-		}
-
-		public void Update(T entity)
-		{
-			_dbSet.Update(entity);
+			throw new NotImplementedException();
 		}
 	}
 }
