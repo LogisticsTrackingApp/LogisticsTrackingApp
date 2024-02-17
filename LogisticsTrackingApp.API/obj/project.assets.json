@@ -2778,11 +2778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
       "projectName": "LogisticsTrackingApp.API",
-      "projectPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
+      "projectPath": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
       "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
-      "outputPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.API\\obj\\",
+      "outputPath": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2799,8 +2799,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Service\\LogisticsTrackingApp.Service.csproj": {
-              "projectPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Service\\LogisticsTrackingApp.Service.csproj"
+            "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Service\\LogisticsTrackingApp.Service.csproj": {
+              "projectPath": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Service\\LogisticsTrackingApp.Service.csproj"
             }
           }
         }
@@ -2859,7 +2859,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
