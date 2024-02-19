@@ -1,4 +1,5 @@
 using LogisticsTrackingApp.Data.Context;
+using LogisticsTrackingApp.Service.Mapping;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("DbCon");
 builder.Services.AddDbContext<LogisticsDbContext>(x => x.UseNpgsql(connectionString));
-
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 

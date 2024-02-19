@@ -15,3 +15,12 @@ D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Data\obj\Debug\net8.0\refin
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.pdb
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.genruntimeconfig.cache
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.Data\obj\Debug\net8.0\ref\LogisticsTrackingApp.Data.dll
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.csproj.AssemblyReference.cache
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.AssemblyInfoInputs.cache
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.AssemblyInfo.cs
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.sourcelink.json
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.dll
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\refint\LogisticsTrackingApp.Data.dll
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Data\obj\Debug\net8.0\LogisticsTrackingApp.Data.pdb

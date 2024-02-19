@@ -274,6 +274,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj": {
+                "projectPath": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj"
+              },
               "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Data\\LogisticsTrackingApp.Data.csproj": {
                 "projectPath": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Data\\LogisticsTrackingApp.Data.csproj"
               }
@@ -290,6 +293,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"

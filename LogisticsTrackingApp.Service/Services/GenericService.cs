@@ -11,8 +11,8 @@ using System.Threading.Tasks;
 namespace LogisticsTrackingApp.Service.Services
 {
 	public class GenericService<T> : IGenericService<T> where T : BaseEntity
-	{
-	 private readonly IGenericRepository<T> _repository;
+	{ 
+	    private readonly IGenericRepository<T> _repository;
 		private readonly IUnitOfWork _unitOfWork;
 
 		public GenericService(IGenericRepository<T> repository, IUnitOfWork unitOfWork)
@@ -21,11 +21,11 @@ namespace LogisticsTrackingApp.Service.Services
 			_unitOfWork = unitOfWork;
 		}
 
-		public async Task<T> DeleteAsync(T entity)
+		public async Task<T> DeleteAsync(int id)
 		{
-			await _repository.AddAsync(entity);
+		    var delete= await _repository.DeleteAsync(id);
 			await _unitOfWork.CommitAsync();
-			return entity;
+			return delete;
 		}
 
 		public async Task<IEnumerable<T>> GetAllAsync()
@@ -40,14 +40,14 @@ namespace LogisticsTrackingApp.Service.Services
 
 		public async Task<T> InsertAsync(T entity)
 		{
-			await _repository.AddAsync(entity);
+			await _repository.InsertAsync(entity);
 			await _unitOfWork.CommitAsync();
 			return entity;
 		}
 
 		public async Task<T> UpdateAsync(T entity)
 		{
-			_repository.Update(entity);
+	     	await _repository.UpdateAsync(entity);
 			await _unitOfWork.CommitAsync();
 			return entity;
 		}

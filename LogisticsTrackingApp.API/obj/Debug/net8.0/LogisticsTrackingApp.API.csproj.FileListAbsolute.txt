@@ -107,3 +107,14 @@ D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.API\obj\Debug\net8.0\refint
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.pdb
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.genruntimeconfig.cache
 D:\Projelerim\LogisticsTracking\LogisticsTrackingApp.API\obj\Debug\net8.0\ref\LogisticsTrackingApp.API.dll
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.csproj.AssemblyReference.cache
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.AssemblyInfoInputs.cache
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.AssemblyInfo.cs
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.csproj.CoreCompileInputs.cache
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.sourcelink.json
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.dll
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\refint\LogisticsTrackingApp.API.dll
+C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.pdb
