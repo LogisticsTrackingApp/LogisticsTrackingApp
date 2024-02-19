@@ -10,9 +10,14 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Concrete
 {
-	public class AboutService 
+	public class AboutService : GenericService<About>, IAboutService
 	{
-		
-		
+
+		public AboutService(IGenericRepository<About> repository, IUnitOfWork unitOfWork) : base(repository, unitOfWork)
+		{
+		}
+
+
+
 	}
 }

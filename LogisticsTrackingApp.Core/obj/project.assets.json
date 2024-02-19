@@ -2301,11 +2301,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj",
       "projectName": "LogisticsTrackingApp.Core",
-      "projectPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj",
+      "projectPath": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Core\\LogisticsTrackingApp.Core.csproj",
       "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
-      "outputPath": "D:\\Projelerim\\LogisticsTracking\\LogisticsTrackingApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2371,7 +2371,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
