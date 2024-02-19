@@ -12,7 +12,7 @@ namespace LogisticsTrackingApp.Data.Repositories.Concrete
 {
 	public class ReturnRepository : GenericRepository<Return>, IReturnRepository
 	{
-		public ReturnRepository(LogisticsDbContext dbContext, DbSet<Return> dbSet) : base(dbContext, dbSet)
+		public ReturnRepository(LogisticsDbContext dbContext) : base(dbContext)
 		{
 		}
 	}

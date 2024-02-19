@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LogisticsTrackingApp.Core
-build_property.ProjectDir = C:\Users\omer\Desktop\6B Danışmanlık\RentalCars\LogisticsTrackingApp\LogisticsTrackingApp.Core\
+build_property.ProjectDir = D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.Core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

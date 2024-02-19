@@ -12,8 +12,9 @@ namespace LogisticsTrackingApp.Data.Repositories.Concrete
 {
 	public class AboutRepository : GenericRepository<About>, IAboutRepository
 	{
-		public AboutRepository(LogisticsDbContext dbContext, DbSet<About> dbSet) : base(dbContext, dbSet)
+		public AboutRepository(LogisticsDbContext dbContext) : base(dbContext)
 		{
 		}
 	}
 }
+ 

@@ -10,5 +10,6 @@ namespace LogisticsTrackingApp.Data.Repositories.Abstract
 {
 	public  interface ICustomerRepository :IGenericRepository<Customer>
 	{
+		Task<List<Customer>> GetCustomerWitShipment();
 	}
 }

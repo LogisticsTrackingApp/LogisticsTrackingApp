@@ -15,13 +15,11 @@ namespace LogisticsTrackingApp.Data.Repositories
 		protected readonly LogisticsDbContext _dbContext;
 		private readonly DbSet<T> _dbSet;
 
-		public GenericRepository(LogisticsDbContext dbContext, DbSet<T> dbSet)
+		public GenericRepository(LogisticsDbContext dbContext)
 		{
 			_dbContext = dbContext;
 			_dbSet = _dbContext.Set<T>();
 		}
-
-
 
 		public async Task AddAsync(T entity)
 		{
@@ -43,9 +41,9 @@ namespace LogisticsTrackingApp.Data.Repositories
 			return await _dbSet.FindAsync(id);
 		}
 
-		public Task Remove(T entity)
+		public void  Remove(T entity)
 		{
-			throw new NotImplementedException();
+		   _dbSet.Remove(entity);
 		}
 
 		public void Update(T entity)

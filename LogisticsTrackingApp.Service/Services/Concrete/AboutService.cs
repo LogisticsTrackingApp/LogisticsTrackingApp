@@ -1,5 +1,7 @@
-﻿using LogisticsTrackingApp.Core.Models;
+﻿using AutoMapper;
+using LogisticsTrackingApp.Core.Models;
 using LogisticsTrackingApp.Core.Repositories;
+using LogisticsTrackingApp.Data.Repositories.Abstract;
 using LogisticsTrackingApp.Data.UnitOfWork;
 using LogisticsTrackingApp.Service.Services.Abstract;
 using System;
@@ -12,12 +14,8 @@ namespace LogisticsTrackingApp.Service.Services.Concrete
 {
 	public class AboutService : GenericService<About>, IAboutService
 	{
-
 		public AboutService(IGenericRepository<About> repository, IUnitOfWork unitOfWork) : base(repository, unitOfWork)
 		{
 		}
-
-
-
 	}
 }

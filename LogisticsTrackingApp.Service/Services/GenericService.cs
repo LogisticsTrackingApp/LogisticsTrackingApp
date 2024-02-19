@@ -21,11 +21,11 @@ namespace LogisticsTrackingApp.Service.Services
 			_unitOfWork = unitOfWork;
 		}
 
-		public async Task<T> DeleteAsync(int id)
+		public async Task<T> DeleteAsync(T entity) 
 		{
-		    var delete= await _repository.DeleteAsync(id);
+		     _repository.Delete(entity);
 			await _unitOfWork.CommitAsync();
-			return delete;
+			return entity;
 		}
 
 		public async Task<IEnumerable<T>> GetAllAsync()
@@ -40,14 +40,14 @@ namespace LogisticsTrackingApp.Service.Services
 
 		public async Task<T> InsertAsync(T entity)
 		{
-			await _repository.InsertAsync(entity);
+			await _repository.AddAsync(entity);
 			await _unitOfWork.CommitAsync();
 			return entity;
 		}
 
 		public async Task<T> UpdateAsync(T entity)
 		{
-	     	await _repository.UpdateAsync(entity);
+	     	 _repository.Update(entity);
 			await _unitOfWork.CommitAsync();
 			return entity;
 		}

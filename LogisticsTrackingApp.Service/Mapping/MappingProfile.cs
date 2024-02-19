@@ -16,6 +16,8 @@ namespace LogisticsTrackingApp.Service.Mapping
 			CreateMap<Customer,CreateCustomerDto>().ReverseMap();
 			CreateMap<Customer,UpdateCustomerDto>().ReverseMap();
 			CreateMap<Customer,ResultCustomerDto>().ReverseMap();
+
+			CreateMap<Customer,CustomerWithShipmentDto>().ReverseMap();
 		}
 	}
 }

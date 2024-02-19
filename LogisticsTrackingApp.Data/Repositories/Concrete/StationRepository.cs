@@ -12,7 +12,7 @@ namespace LogisticsTrackingApp.Data.Repositories.Concrete
 {
 	public class StationRepository : GenericRepository<Station>, IStationRepository
 	{
-		public StationRepository(LogisticsDbContext dbContext, DbSet<Station> dbSet) : base(dbContext, dbSet)
+		public StationRepository(LogisticsDbContext dbContext) : base(dbContext)
 		{
 		}
 	}

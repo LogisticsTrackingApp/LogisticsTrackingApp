@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rdB4xP9MpnGlmCR/FSU1B3aDJs90YT3GxljedGP8pBNsBCYO3XGakInSG/iOC1XQh1QKP4pWlqzsoc//MOaQYw==",
+  "dgSpecHash": "TFSNq6ZwkCUaeyOY4gLo1p38+cPXBtIHmONJTAjoPY42wwKSZcs+W83tGTbzvy9M9Ul0yLzbnyGHDC7gHHouDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omer\\Desktop\\6B Danışmanlık\\RentalCars\\LogisticsTrackingApp\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
+  "projectFilePath": "D:\\Bitirme Projesi\\LogisticsTrackingApp\\LogisticsTrackingApp.API\\LogisticsTrackingApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\omer\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\omer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
