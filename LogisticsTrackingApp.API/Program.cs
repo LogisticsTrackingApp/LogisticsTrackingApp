@@ -33,12 +33,23 @@ builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
 builder.Services.AddScoped<ICustomerRepository,CustomerRepository>();
 builder.Services.AddScoped<ICustomerService ,CustomerService>();
 
-
-
-
-
 builder.Services.AddScoped<IAboutRepository,AboutRepository>();
 builder.Services.AddScoped<IAboutService, AboutService>();
+builder.Services.AddScoped<IAdressRepository, AdressRepository>();
+builder.Services.AddScoped<IAdressService, AdressService>();
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
+builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<IContactUsRepository, ContactUsRepository>();
+builder.Services.AddScoped<IContactUsService, ContactUsService>();
+builder.Services.AddScoped<IReturnRepository, ReturnRepository>();
+builder.Services.AddScoped<IReturnService, ReturnService>();
+builder.Services.AddScoped<IShipmentRepository, ShipmentRepository>();
+builder.Services.AddScoped<IShipmentService, ShipmentService>();
+builder.Services.AddScoped<IStationRepository, StationRepository>();
+builder.Services.AddScoped<IStationService, StationService>();
+
+
+
 
 var app = builder.Build();
 

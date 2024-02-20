@@ -24,15 +24,14 @@ namespace LogisticsTrackingApp.API.Controllers
 		[HttpGet]
 		public async Task<IActionResult> GetAll()
 		{
-			var customers = await _customerService.GetAllAsync();
-			return Ok(customers);
+			var values = await _customerService.GetAllAsync();
+			return Ok(values);
 		}
 		[HttpGet("{id}")]
 		public async Task<IActionResult> GetById(int id)
 		{
-			var customer = await _customerService.GetIdAsync(id);
-			var customersDto = _mapper.Map<ResultCustomerDto>(customer);
-			return Ok(customersDto);
+			var values = await _customerService.GetIdAsync(id);
+			return Ok(values);
 		}
 
 		[HttpPost]
@@ -40,12 +39,8 @@ namespace LogisticsTrackingApp.API.Controllers
 		{
 			var values =  _mapper.Map<CreateCustomerDto, Customer>(createCustomer);
 		     await _customerService.InsertAsync(values);
-			 return Ok("başarılı şekilde eklendi");
+			 return Ok("Başarılı şekilde eklendi");
 
-
-			//var values = await _customerService.InsertAsync(_mapper.Map<Customer>(createCustomer));
-			//var customerDto = _mapper.Map<CreateCustomerDto>(customer);
-			//return Ok(customerDto);
 		}
 
 		[HttpPut]
@@ -53,7 +48,7 @@ namespace LogisticsTrackingApp.API.Controllers
 		{
 			await _customerService.UpdateAsync(_mapper.Map<Customer>(updateCustomer));
 
-			return Ok();
+			return Ok("Başarılı şekilde güncellendi");
 		}
 
 		[HttpDelete("{id}")]
@@ -61,7 +56,7 @@ namespace LogisticsTrackingApp.API.Controllers
 		{
 			var customer = await _customerService.GetIdAsync(id);
 			await _customerService.DeleteAsync(customer);
-			return Ok();
+			return Ok("Başarılı şekilde silindi");
 
 
 		}
