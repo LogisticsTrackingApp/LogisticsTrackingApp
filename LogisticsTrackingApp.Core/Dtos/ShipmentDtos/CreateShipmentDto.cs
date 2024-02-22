@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Core.Dtos.ShipmentDtos
 {
-	public class CreateShipmentDto
+	public class CreateShipmentDto :BaseDto
 	{
-        public int Id { get; set; }
+      
         public string TrackingNumber { get; set; }
 
 		public DateTime DeliverDate { get; set; }

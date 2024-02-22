@@ -21,7 +21,14 @@ namespace LogisticsTrackingApp.API.Controllers
 			_mapper = mapper;
 		}
 
-		[HttpGet]
+
+		[HttpGet("[action]")]
+         public async Task<ActionResult<List<CustomerWithShipmentDto>>> GetCustomerWitShipment()
+		{
+			return await _customerService.GetCustomerWitShipment();
+
+		}
+			[HttpGet]
 		public async Task<IActionResult> GetAll()
 		{
 			var values = await _customerService.GetAllAsync();

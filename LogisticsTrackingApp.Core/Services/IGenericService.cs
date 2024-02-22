@@ -15,6 +15,8 @@ namespace LogisticsTrackingApp.Core.Services
 
 		Task<T> InsertAsync(T entity);
 
+		void Add(T entity);
+
 		Task<T> UpdateAsync(T entity);
 
 		Task<T> DeleteAsync(T Entity);

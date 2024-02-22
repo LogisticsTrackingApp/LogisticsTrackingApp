@@ -21,6 +21,11 @@ namespace LogisticsTrackingApp.Data.Repositories
 			_dbSet = _dbContext.Set<T>();
 		}
 
+		public void Add(T entity)
+		{
+			_dbSet.Add(entity);
+		}
+
 		public async Task AddAsync(T entity)
 		{
 			await _dbSet.AddAsync(entity);

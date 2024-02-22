@@ -9,6 +9,7 @@ namespace LogisticsTrackingApp.Core.Models
 {
 	public class Return :BaseEntity
 	{
+		
         public string Reason { get; set; }
 
         public DateTime ReturnDate { get; set; }

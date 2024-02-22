@@ -21,6 +21,11 @@ namespace LogisticsTrackingApp.Service.Services
 			_unitOfWork = unitOfWork;
 		}
 
+		public void Add(T entity)
+		{
+			throw new NotImplementedException();
+		}
+
 		public async Task<T> DeleteAsync(T entity) 
 		{
 		     _repository.Delete(entity);

@@ -8,7 +8,7 @@ namespace LogisticsTrackingApp.Core.Dtos.CustomerDtos
 {
 	public  class ResultCustomerDto
 	{
-        public int Id { get; set; }
+     
         public int FullName { get; set; }
 		public string City { get; set; }
 	}
