@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using LogisticsTrackingApp.API.Filters;
 using LogisticsTrackingApp.Core.Dtos.AboutDtos;
 using LogisticsTrackingApp.Core.Dtos.Abouts;
 using LogisticsTrackingApp.Core.Dtos.CustomerDtos;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LogisticsTrackingApp.API.Controllers
 {
+	
 	[Route("api/[controller]")]
 	[ApiController]
 	public class AboutController : ControllerBase
@@ -23,12 +25,15 @@ namespace LogisticsTrackingApp.API.Controllers
 			_mapper = mapper;
 		}
 
+		
 		[HttpGet]
 		public async Task<IActionResult> GetAll()
 		{
 			var values = await _aboutService.GetAllAsync();
 			return Ok(values);
 		}
+
+		//[ServiceFilter(typeof(NotFoundFilter<About>))]
 		[HttpGet("{id}")]
 		public async Task<IActionResult> GetById(int id)
 		{

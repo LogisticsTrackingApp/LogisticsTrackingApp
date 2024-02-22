@@ -231,3 +231,8 @@ D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.
 D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.csproj.CopyComplete
 D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\LogisticsTrackingApp.API.genruntimeconfig.cache
 D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\obj\Debug\net8.0\ref\LogisticsTrackingApp.API.dll
+D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\bin\Debug\net8.0\FluentValidation.dll
+D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\bin\Debug\net8.0\Autofac.dll
+D:\Bitirme Projesi\LogisticsTrackingApp\LogisticsTrackingApp.API\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll

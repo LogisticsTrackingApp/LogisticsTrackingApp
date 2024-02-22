@@ -2,6 +2,7 @@
 using LogisticsTrackingApp.Core.Repositories;
 using LogisticsTrackingApp.Core.Services;
 using LogisticsTrackingApp.Data.UnitOfWork;
+using LogisticsTrackingApp.Service.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,7 +41,12 @@ namespace LogisticsTrackingApp.Service.Services
 
 		public async Task<T> GetIdAsync(int id)
 		{
-			return await _repository.GetIdAsync(id);
+			var hasValues = await _repository.GetIdAsync(id);
+			if (hasValues == null)
+			{
+				throw new NotFoundExcepiton($"{typeof(T).Name}({id}) not found");
+			}
+			return hasValues;
 		}
 
 		public async Task<T> InsertAsync(T entity)

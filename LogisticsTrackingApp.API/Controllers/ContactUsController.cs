@@ -47,7 +47,7 @@ namespace LogisticsTrackingApp.API.Controllers
 		[HttpPut]
 		public async Task<IActionResult> Update(UpdateContactUsDto updateContactUs)
 		{
-			await _contactUsService.UpdateAsync(_mapper.Map<ContactUs>(updateContactUs);
+			await _contactUsService.UpdateAsync(_mapper.Map<ContactUs>(updateContactUs));
 
 			return Ok("Başarılı şekilde güncellendi");
 		}
