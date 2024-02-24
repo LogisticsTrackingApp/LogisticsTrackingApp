@@ -12,7 +12,6 @@ namespace LogisticsTrackingApp.Core.Dtos.ShipmentDtos
 		public string TrackingNumber { get; set; }
 
 		public DateTime DeliverDate { get; set; }
-		public string Status { get; set; }
-		public int CustomerId { get; set; }
+		
 	}
 }
