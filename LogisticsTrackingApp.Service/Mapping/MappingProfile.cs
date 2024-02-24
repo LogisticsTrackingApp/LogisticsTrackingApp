@@ -1,5 +1,13 @@
 ﻿using AutoMapper;
+using LogisticsTrackingApp.Core.Dtos.AboutDtos;
+using LogisticsTrackingApp.Core.Dtos.Abouts;
+using LogisticsTrackingApp.Core.Dtos.AdressDtos;
+using LogisticsTrackingApp.Core.Dtos.ContactDtos;
+using LogisticsTrackingApp.Core.Dtos.ContactUsDtos;
 using LogisticsTrackingApp.Core.Dtos.CustomerDtos;
+using LogisticsTrackingApp.Core.Dtos.ReturnDtos;
+using LogisticsTrackingApp.Core.Dtos.ShipmentDtos;
+using LogisticsTrackingApp.Core.Dtos.StationDtos;
 using LogisticsTrackingApp.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -17,7 +25,42 @@ namespace LogisticsTrackingApp.Service.Mapping
 			CreateMap<Customer,UpdateCustomerDto>().ReverseMap();
 			CreateMap<Customer,ResultCustomerDto>().ReverseMap();
 
-			CreateMap<Customer,CustomerWithShipmentDto>().ReverseMap();
+			CreateMap<Customer, CustomerWithShipmentDto>();
+
+			CreateMap<About, CreateAboutDto>().ReverseMap();
+			CreateMap<About, UpdateAboutDto>().ReverseMap();
+			CreateMap<About, ResultAboutDto>().ReverseMap();
+
+			CreateMap<Adress, CreateAdressDto>().ReverseMap();
+			CreateMap<Adress, UpdateAdressDto>().ReverseMap();
+			CreateMap<Adress, ResultAdressDto>().ReverseMap();
+
+			CreateMap<Contact, CreateContactDto>().ReverseMap();
+			CreateMap<Contact, UpdateContactDto>().ReverseMap();
+			CreateMap<Contact, ResultContactDto>().ReverseMap();
+
+			CreateMap<ContactUs, CreateContactUsDto>().ReverseMap();
+			CreateMap<ContactUs, UpdateContactUsDto>().ReverseMap();
+			CreateMap<ContactUs, ResultContactUsDto>().ReverseMap();
+
+			CreateMap<Return, CreateReturnDto>().ReverseMap();
+			CreateMap<Return, UpdateReturnDto>().ReverseMap();
+			CreateMap<Return, ResultReturnDto>().ReverseMap();
+
+			CreateMap<Shipment, CreateShipmentDto>().ReverseMap();
+			CreateMap<Shipment, UpdateShipmentDto>().ReverseMap();
+			CreateMap<Shipment, ResultShipmentDto>().ReverseMap();
+
+			CreateMap<Station, CreateStationDto>().ReverseMap();
+			CreateMap<Station, UpdateStationDto>().ReverseMap();
+			CreateMap<Station, ResultStationDto>().ReverseMap();
+
+
+
+
+
+
+
 		}
 	}
 }

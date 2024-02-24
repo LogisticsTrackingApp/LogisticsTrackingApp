@@ -16,8 +16,7 @@ namespace LogisticsTrackingApp.Core.Models
         public int CustomerId { get; set; }
         public Customer Customer { get; set; }
 
-		public int StationId { get; set; }
-		public Station Station { get; set; }
+	
 
 
 

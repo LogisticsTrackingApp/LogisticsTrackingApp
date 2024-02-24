@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Core.Dtos.ContactDtos
 {
-	public class UpdateContactUsDto :BaseDto
+	public class UpdateContactDto :BaseDto
 	{
        
         public string FullName { get; set; }
