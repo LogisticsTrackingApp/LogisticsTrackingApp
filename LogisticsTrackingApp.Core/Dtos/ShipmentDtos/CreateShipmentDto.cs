@@ -9,11 +9,23 @@ namespace LogisticsTrackingApp.Core.Dtos.ShipmentDtos
 {
 	public class CreateShipmentDto :BaseDto
 	{
-      
-        public string TrackingNumber { get; set; }
+
+		public string TrackingNumber { get; set; }
 
 		public DateTime DeliverDate { get; set; }
-		public string Status { get; set; }
+
+		public int AdressId { get; set; }
 		
+		public int CustomerId { get; set; }
+	
+
+		public int OrderId { get; set; }
+		
+
+		public int VehicleId { get; set; }
+	
+
+	
+
 	}
 }

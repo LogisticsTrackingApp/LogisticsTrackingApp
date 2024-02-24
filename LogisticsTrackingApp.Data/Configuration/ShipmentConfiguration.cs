@@ -20,7 +20,7 @@ namespace LogisticsTrackingApp.Data.Configuration
 
 			builder.Property(x => x.DeliverDate).IsRequired();
 			builder.Property(x => x.TrackingNumber).IsRequired();
-			builder.Property(x => x.Station).IsRequired().HasMaxLength(50);
+			
 
 
 			builder.HasOne(x => x.Customer).WithMany(x => x.Shipments).HasForeignKey(x => x.CustomerId);

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Abstract
 {
-	public interface IAdressService :IGenericService<Adress>
+	public interface IAdressService :IService<Adress>
 	{
 	}
 }

@@ -14,5 +14,7 @@ namespace LogisticsTrackingApp.Core.Models
 		public string PostalCode { get; set; }
 		public string Country { get; set; }
 
+		public ICollection<Shipment> Shipments { get; set; }
+
 	}
 }

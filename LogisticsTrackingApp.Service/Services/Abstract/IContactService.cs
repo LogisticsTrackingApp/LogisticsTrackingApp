@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Abstract
 {
-	public  interface IContactService :IGenericService<Contact>
+	public  interface IContactService :IService<Contact>
 	{
 	}
 }

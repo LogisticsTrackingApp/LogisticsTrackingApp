@@ -9,14 +9,10 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Abstract
 {
-	public interface ICustomerService :IGenericService<Customer>
+	public interface ICustomerService :IService<Customer>
 	{
 		Task<List<CustomerWithShipmentDto>> GetCustomerWitShipment();
 
-		//Task<IEnumerable<ResultCustomerDto>> GetAll();
-		//Task<ResultCustomerDto> GetById(int Id);
-		//Task CreateCustomer(CreateCustomerDto createCustomerDto);
-		//Task<string> UpdateCustomer(UpdateCustomerDto updateCustomerDto );
-		//Task<string> DeleteCustomer(int Id);
+		
 	}
 }

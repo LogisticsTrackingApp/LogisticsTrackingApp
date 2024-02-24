@@ -1,6 +1,8 @@
 ﻿using LogisticsTrackingApp.Core.Dtos;
 using LogisticsTrackingApp.Service.Exceptions;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Http;
 using System.Text.Json;
 
 namespace LogisticsTrackingApp.API.Middlewares

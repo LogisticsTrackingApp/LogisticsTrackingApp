@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Abstract
 {
-	public interface IContactUsService :IGenericService<ContactUs>
+	public interface IContactUsService :IService<ContactUs>
 	
 	{
 	}

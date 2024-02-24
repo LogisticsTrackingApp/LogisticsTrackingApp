@@ -2,6 +2,7 @@
 using LogisticsTrackingApp.Core.Dtos.AboutDtos;
 using LogisticsTrackingApp.Core.Dtos.AdressDtos;
 using LogisticsTrackingApp.Core.Dtos.ContactDtos;
+using LogisticsTrackingApp.Core.Dtos.ContactUsDtos;
 using LogisticsTrackingApp.Core.Models;
 using LogisticsTrackingApp.Service.Services.Abstract;
 using LogisticsTrackingApp.Service.Services.Concrete;

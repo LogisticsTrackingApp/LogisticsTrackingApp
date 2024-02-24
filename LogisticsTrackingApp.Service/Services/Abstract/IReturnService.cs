@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Abstract
 {
-	public interface IReturnService :IGenericService<Return>
+	public interface IReturnService :IService<Return>
 	{
 	}
 }

@@ -6,6 +6,7 @@ using LogisticsTrackingApp.Core.Repositories;
 using LogisticsTrackingApp.Data.Repositories.Abstract;
 using LogisticsTrackingApp.Data.UnitOfWork;
 using LogisticsTrackingApp.Service.Services.Abstract;
+using Microsoft.AspNetCore.Http.HttpResults;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Concrete
 {
-	public class CustomerService : GenericService<Customer>, ICustomerService
+	public class CustomerService : Service<Customer>, ICustomerService
 	{
 		private readonly ICustomerRepository _customerRepository;
 		private readonly IMapper _mapper;
@@ -26,6 +27,7 @@ namespace LogisticsTrackingApp.Service.Services.Concrete
 			_customerRepository = customerRepository;
 		}
 
+		
 		public async Task<List<CustomerWithShipmentDto>> GetCustomerWitShipment()
 		{
 			var customers = await _customerRepository.GetCustomerWitShipment();

@@ -11,8 +11,10 @@ namespace LogisticsTrackingApp.Core.Models
 	{
         public string FullName { get; set; }
 		public string City { get; set; }
-	
 
+
+		public ICollection<Order> Orders { get; set; }
+		public ICollection<Return> Returns { get; set; }
 		public ICollection<Shipment> Shipments { get; set; }
 
 	}

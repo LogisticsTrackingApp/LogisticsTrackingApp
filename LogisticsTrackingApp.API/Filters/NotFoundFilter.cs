@@ -8,9 +8,9 @@ namespace LogisticsTrackingApp.API.Filters
 {
 	public class NotFoundFilter<T> :IAsyncActionFilter where T : BaseEntity
 	{ 
-		private readonly IGenericService<T> _genericService;
+		private readonly IService<T> _genericService;
 
-		public NotFoundFilter(IGenericService<T> genericService)
+		public NotFoundFilter(IService<T> genericService)
 		{
 			_genericService = genericService;
 		}

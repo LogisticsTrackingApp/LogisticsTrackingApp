@@ -14,7 +14,7 @@ namespace LogisticsTrackingApp.Data.Context
 		{
 		}
 
-
+		
 		public DbSet<About> Abouts { get; set; }
 		public DbSet<Customer> Customers { get; set; }
 
@@ -28,6 +28,15 @@ namespace LogisticsTrackingApp.Data.Context
 		public DbSet<Shipment> Shipments { get; set; }
 
 		public DbSet<Station> Stations { get; set; }
+
+		public DbSet<Vehicle> Vehicles { get; set; }
+
+		public DbSet<Order> Orders { get; set; }
+
+		public DbSet<OrderItem> OrderItems { get; set; }
+
+		public DbSet<ShipmentStatus> ShipmentStatuses { get; set; }
+
 
 	}
 }

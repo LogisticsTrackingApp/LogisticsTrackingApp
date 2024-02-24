@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Abstract
 {
-	public interface IShipmentService :IGenericService<Shipment>
+	public interface IShipmentService :IService<Shipment>
 	{
 	}
 }

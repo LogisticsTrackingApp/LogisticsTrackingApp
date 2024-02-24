@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace LogisticsTrackingApp.Service.Services.Concrete
 {
-	public class ContactUsService : GenericService<ContactUs>, IContactUsService
+	public class ContactUsService : Service<ContactUs>, IContactUsService
 	{
 		public ContactUsService(IGenericRepository<ContactUs> repository, IUnitOfWork unitOfWork) : base(repository, unitOfWork)
 		{
